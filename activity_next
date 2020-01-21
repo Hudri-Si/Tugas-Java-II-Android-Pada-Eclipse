@@ -1,0 +1,70 @@
+<!DOCTYPE xml>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+ 
+ <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="STMIK-INSAN PEMBANGUNAN 6 (MALAM)"
+    android:textStyle="bold"/>
+  <EditText
+       android:id="@+id/EditText01"
+       android:layout_width="fill_parent"
+       android:layout_height="70dp"
+       android:hint="Masukan Angka Pertama">
+     
+</EditText>
+ <EditText
+       android:id="@+id/EditText02"
+       android:layout_height="70dp"
+       android:hint="Masukan Angka Kedua"
+       android:layout_width="fill_parent">
+</EditText><LinearLayout
+              android:id="@+id/LinearLayout01"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+       <Button
+              android:id="@+id/Button03"
+              android:layout_height="wrap_content"
+              android:text="+"
+              android:onClick="Tambah" android:layout_width="80dp">
+       </Button>
+       <Button
+              android:id="@+id/Button01"
+              android:layout_height="wrap_content"
+              android:onClick="Kurang"
+              android:text="-" android:layout_width="80dp">
+       </Button>
+       <Button
+              android:id="@+id/Button02"
+              android:layout_height="wrap_content"
+              android:text="X"
+              android:onClick="Kali" android:layout_width="80dp">
+       </Button>
+    
+       <Button
+              android:id="@+id/Button04"
+              android:layout_height="wrap_content"
+              android:onClick="Bagi"
+              android:text="/" android:layout_width="80dp">
+       </Button>
+       </LinearLayout>
+<EditText
+       android:id="@+id/EditText03"
+       android:layout_height="70dp"
+       android:hint="Hasil"
+       android:textStyle="bold"
+       android:textSize="50dp"
+       android:layout_width="fill_parent">
+</EditText>
+
+<RatingBar
+    android:id="@+id/ratingBar1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
