@@ -9,7 +9,7 @@ import android.content.DialogInterface;
 
 
 public class MainActivity extends Activity {
-Button pindah1,exit;
+Button pindah1;
 
 public void onBackPressed() {		
 	   exit();
